@@ -1,0 +1,10 @@
+name: AntiCheatGpt2
+version: 1.0
+main: com.anticheatgpt2.AntiCheatGpt2
+api-version: 1.16
+commands:
+  anticheat:
+    description: Основная команда плагина AntiCheatGpt2
+    usage: /<command> [info|clear]
+    permission: anticheat.use
+    permission-message: У вас нет прав на использование этой команды.
